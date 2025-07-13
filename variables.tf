@@ -6,7 +6,9 @@ variable "username" {
 }
 
 variable "password" {
+  default = "your_password_here"
 }
 
 variable "controller_ip" {
+  default = "1.2.3.4"
 }
